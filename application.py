@@ -1,7 +1,3 @@
-#
-# Author: Carmelo del Coso Ameijide
-# Email: carmelodelcoso@gmail.com
-#
 
 from datetime import datetime
 from html import escape

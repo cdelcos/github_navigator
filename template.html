@@ -1,0 +1,23 @@
+<!DOCTYPE html ><html lang="en"><head><title> Github Navigator </title ><meta name="author" content="Carmelo del Coso Ameijide"><meta name="email" content="carmelodelcoso@gmail.com"></head><body><div><h1>arrow</h1><h2>1 arrow</h2><h3> Created 2016-02-17 08:00:23</h3><a href="https://github.com/apache"> <img src="https://avatars0.githubusercontent.com/u/47359?v=4" alt="avatar" height="42" width="42"/></a> apache<h3> LastCommit </h3>SHA: e44ede87c069087e11b4f57682090e01ae06a746</br>AUTHOR: Emilio Lahr-Vivaz</br>MESSAGE: ARROW-1343: [Java] Aligning serialized schema, end of buffers in RecordBatches
+
+Author: Emilio Lahr-Vivaz <elahrvivaz@ccri.com>
+Author: Wes McKinney <wes.mckinney@twosigma.com>
+
+Closes #954 from elahrvivaz/align_end and squashes the following commits:
+
+79ac1204 [Wes McKinney] Revert to NDEBUG because it's a standard define in release builds in MSVC
+ae6bc9f2 [Wes McKinney] Use __declspec(noreturn) in MSVC. Not sure why this suddenly showed up
+74b29ccf [Wes McKinney] Add notes to IPC.md to make alignment contract more clear
+e2f0114b [Wes McKinney] Add C++ DCHECKs on read path for aligned buffers, aligned file block offset, lengths
+3d64c9f5 [Wes McKinney] Align stream schema message in C++, DCHECKs for FileBlocks
+4778ee1f [Emilio Lahr-Vivaz] adding padding to magic bytes in file format
+53429159 [Emilio Lahr-Vivaz] using asserts instead of padding checks, adding padding to ArrowRecordBatch.calculateBodySize, moving align to writeBufferBatches
+a12b4ff8 [Emilio Lahr-Vivaz] comments
+0b32265b [Emilio Lahr-Vivaz] aligning schema write
+26bbc255 [Emilio Lahr-Vivaz] Merge branch 'ARROW-1340' into align_end
+a307779e [Emilio Lahr-Vivaz] ARROW-1340: [Java] Fix NullableMapVector field metadata
+b2bf86d4 [Emilio Lahr-Vivaz] WIP for aligning end of buffers</br><hr/><h2>2 arrow</h2><h3> Created 2015-12-07 23:30:29</h3><a href="https://github.com/android10"> <img src="https://avatars0.githubusercontent.com/u/1360604?v=4" alt="avatar" height="42" width="42"/></a> android10<h3> LastCommit </h3>SHA: cbb0fb467abec1b35366a6843ead06e9031b3154</br>AUTHOR: Fernando Cejas</br>MESSAGE: Merge pull request #6 from hamen/master
+
+Add Internal annotation</br><hr/><h2>3 Arrow</h2><h3> Created 2015-06-07 12:42:50</h3><a href="https://github.com/freshOS"> <img src="https://avatars0.githubusercontent.com/u/20884428?v=4" alt="avatar" height="42" width="42"/></a> freshOS<h3> LastCommit </h3>SHA: 8a398d725f6bab7846e04b5e811091b1d59cc352</br>AUTHOR: Sacha Durand Saint Omer</br>MESSAGE: Bumps to 3.0.5 with prebuilt fmk built with Xcode 8.3.1</br><hr/><h2>4 arrow</h2><h3> Created 2014-02-21 03:04:01</h3><a href="https://github.com/NetEase"> <img src="https://avatars0.githubusercontent.com/u/1460597?v=4" alt="avatar" height="42" width="42"/></a> NetEase<h3> LastCommit </h3>SHA: c88959446772d6b8082ebf9489f37537079e99ce</br>AUTHOR: kevinkong</br>MESSAGE: Merge pull request #5 from NetEase/develop
+
+Develop to master</br><hr/><h2>5 arrow</h2><h3> Created 2012-11-18 20:23:27</h3><a href="https://github.com/crsmithdev"> <img src="https://avatars1.githubusercontent.com/u/1596037?v=4" alt="avatar" height="42" width="42"/></a> crsmithdev<h3> LastCommit </h3>SHA: fd723b46a6d84ea75af329fe78da6afaf27dfeba</br>AUTHOR: Zhiming Wang</br>MESSAGE: ArrowFactory.get: document kwargs locale and tzinfo (#411)</br><hr/></div></body></html>
